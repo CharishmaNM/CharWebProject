@@ -10,7 +10,7 @@ class Config(object):
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'projcontainer'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'sqldataproj.database.windows.net'
-    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'sqldataproj'
+    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'Project'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'admin1'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'Database1'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
