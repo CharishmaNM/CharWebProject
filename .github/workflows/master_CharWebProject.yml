@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'CharWebProject'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_f48c20036dfd4eb0aa42e896ac660ddd }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_9bc9207a2d074f21a3fd07a39ba37450 }}
